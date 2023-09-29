@@ -1,0 +1,32 @@
+.head{
+    padding: 0;
+    margin: 0;
+    height: 72px;
+}
+.head .icons .notification::before{
+    content: "3";
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:  #FF5B42;
+    border-radius: 50%;
+    right: -5px;
+    top:-5px
+}
+.head .icons img{
+    width: 32px;
+    height: 32px;
+}
+
+.head .icons .imagename::before{
+    content: "Employee";
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 30px;
+    top:35px
+}

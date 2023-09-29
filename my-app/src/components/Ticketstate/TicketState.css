@@ -1,0 +1,39 @@
+
+.stateBox{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.stateBox::before{
+    content: "";
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:  red;
+    border-radius: 50%;
+    left: -10px;
+}
+.stateBox.greendot::before{
+    background-color:  #5FD971;
+}
+.stateBox.yellowDot::before{
+    background-color:  #FFD360;
+}
+
+.stateBox.blueDot::before{
+    background-color:  #5B8DEF;
+}
+
+.stateBox.redDot::before{
+    background-color:  #FD5158;
+}
+
+.stateBox.grayDot::before{
+    background-color:  #B9BCBC;
+}

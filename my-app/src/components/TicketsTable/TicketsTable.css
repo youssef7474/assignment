@@ -1,0 +1,35 @@
+.resboniveTable{
+    overflow-x: auto;
+}
+.resboniveTable table{
+    min-width: 800px;
+    border-spacing: 0;
+    
+}
+.resboniveTable thead td
+{
+    background-color: #eee;
+    font-weight: 500;
+    font-size: 14px;
+    color: #001011;
+}
+.resboniveTable table td{
+    padding: 15px;
+    
+}
+.resboniveTable tbody td{
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+
+}
+.tabeltext{
+    color:#616363 ;
+    font-size: 14px;
+    font-weight: 400;
+}
+.label{
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #5FD971;
+}

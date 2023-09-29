@@ -1,0 +1,19 @@
+.searchCompo{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.searchcompobar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    flex-wrap: wrap;
+    
+}
+.searchinput{
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    border-color: transparent;
+    padding: 10px;
+}

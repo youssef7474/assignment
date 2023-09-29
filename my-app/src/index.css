@@ -1,0 +1,64 @@
+:root
+{
+    --Primary-Blue-300:#1B6792;
+    --White-color:#FFFFFF;
+    --page-color:#FCFCFC;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+*:focus{
+  outline: none;
+}
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.page
+{
+    background-color: var(--page-color);
+    min-height: 100vh;
+}
+
+.p-20{
+  padding: 20px;
+}
+.m-20{
+  margin: 20;
+}
+.p-relative{
+  position: relative;
+}
+.d-flex{
+  display: flex;
+}
+.w-full{
+  width: 100%;
+}
+.content{
+  overflow: hidden;
+}
+@media (max-width:767px){
+  .tickets-compo{
+    flex-direction: column;
+  }
+}
+
+
+
+.borderLineBottom{
+  border-bottom: 1px solid #F7F6F6;
+  padding-bottom: 5px;
+
+}
+

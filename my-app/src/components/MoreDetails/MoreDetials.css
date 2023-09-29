@@ -1,0 +1,11 @@
+
+.statedetails::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color:  #FFD360;
+    border-radius: 50%;
+    left: -20px;
+    bottom: 10px;
+}
